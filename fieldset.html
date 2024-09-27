@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <table>
+                <tr>
+                    <td>Nome:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Idade:</td>
+                    <td><input type="number" min="0" max="120"></td>
+                </tr>
+                <tr>
+                    <td>Data de nascimento:</td>
+                    <td><input type="date"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Dados profissionais</legend>
+                <table>
+                    <tr>
+                        <td>Escolaridade:</td>
+                        <td> 
+                            <select name="Escolaridade" id="escolaridade">
+                                <option value="Ensino fundamental incompleto">Ensino fundamental incompleto</option>
+                                <option value="Ensino fundamental completo">Ensino fundamental completo</option>
+                                <option value="Ensino medio incompleto">Ensino medio incompleto</option>
+                                <option value="Ensino medio completo">Ensino medio completo</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input name="e-mail" type="text"> </td>
+                    </tr>
+                    <tr>
+                        <td>Tem experiencia em TI:</td>
+                            <td>
+                                <input type="radio" name="opção" value="sim"> sim <br>
+                                <input type="radio" name="opção" value="não"> não <br>
+                            </td>
+
+                    </tr>
+                    <tr>
+                        <td>Disponibilidade</td> 
+                        <td>
+                            <input type="checkbox" name="Manha" value="Manha">Manha <br>
+                            <input type="checkbox" name="Tarde" value="Tarde">tarde <br>
+                            <input type="checkbox" name="Noite" value="Noite">Noite <br>
+                        </td>
+                        
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    
+</body>
+</html>
