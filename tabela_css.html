@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td{ /*formata as tags table, th e td */ border: 2px solid; text-align: center; border-collapse: collapse;  padding: 5px; /*inserir borda 1px*/}
+
+        table{width: 90%; margin-left: 5%; margin-right: 5%; margin-top: 2%; /*posição da tabela e espaçamento entre as bordas*/}
+
+        img{width: 60px;  vertical-align: middle;/*tamanho e posição da imagem*/}
+
+        tr:nth-child(even) {background-color: rgb(194, 255, 192);/*cor de fundo das linhas horizontais da tabela*/}
+
+        tr:hover{background-color: rgb(94, 153, 0);/*cor de seleção das linhas*/ color: rgb(255, 255, 255);/*alteração da cor da fonte após selecionar a linha*/}
+
+        td:hover{background-color: rgb(10, 119, 0);/*alteração de cor após selecionar linha e coluna da tabela*/}
+
+        th{background-color: rgb(24, 206, 0); color:/*cor de fundo do titulo*/ rgb(0, 0, 0); font-size: x-large; /*cor da fonte do titulo*/}
+
+        body{background-color: rgb(232, 255, 232); /*cor de fundo do site*/}
+        
+        .titulo{font-weight: bolder; text-transform: uppercase; /*formato de titulo/negrito*/}
+    </style>
+</head>
+<body>
+    <table >
+        <thead>
+            <tr>
+                <th colspan="6">QUADRO DE MEDALHAS PARAOLIPIADAS</th>
+            </tr>
+        </thead>
+        <body>
+            <tr>
+                <td class="titulo">Colocação</td>
+                <td class="titulo">País</td>
+                <td class="titulo">Ouro</td>
+                <td class="titulo">Prata</td>
+                <td class="titulo">Bronze</td>
+                <td class="titulo">Total</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><img src="../img/china.png"></td>
+                <td>94</td>
+                <td>76</td>
+                <td>50</td>
+                <td>230</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><img src="../img/gra bretanha.png"></td>
+                <td>49</td>
+                <td>44</td>
+                <td>31</td>
+                <td>124</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><img src="../img/estados unidos.png"></td>
+                <td>36</td>
+                <td>42</td>
+                <td>27</td>
+                <td>105</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><img src="../img/paises baixos.png"></td>
+                <td>27</td>
+                <td>17</td>
+                <td>12</td>
+                <td>56</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><img src="../img/brasil.png"></td>
+                <td>25</td>
+                <td>26</td>
+                <td>38</td>
+                <td>89</td>
+            </tr>
+        </body>
+    </table>
+</body>
+</html>
