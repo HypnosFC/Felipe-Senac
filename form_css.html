@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/form.css" >
+</head>
+<body>
+    <H2>Cadastro de funcionarios</H2>
+    <div>
+        <form>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <table>
+                    <tr>
+                        <td class="nome">Nome:*</td>
+                        <td colspan="3"><input type="text" placeholder="digite seu nome" required autofocus></td>
+                    </tr>
+                    <tr>
+                        <td>RG:*</td>
+                        <td><input type="text" placeholder="digite o numero do RG" required></td>
+                        <td>CPF:*</td>
+                        <td><input type="text" placeholder="000.111.222-33" required></td>
+                    </tr>
+                    <tr>
+                        <td>Telefone (Whatsapp):*</td>
+                        <td><input type="tel" placeholder="(00)00000-0000" required></td>
+                        <td>Telefone 2:</td>
+                        <td><input type="tel" placeholder="(00)00000-0000"></td>
+                    </tr>
+                    <tr>
+                        <td>Data de nascimento:*</td>
+                        <td><input type="date" required></td>
+                        <td>Naturalidade:*</td>
+                        <td><input type="text" value="Brasileira" required></td>
+                    </tr>
+                    <tr>
+                        <td>Escolaridade:*</td>
+                        <td>
+                            <select>
+                                <option value="A">Alfabetizado</option>
+                                <option value="F">Fundamental</option>
+                                <option value="MC">Médio Completo</option>
+                                <option value="SC">Superior Completo</option>
+                            </select>
+                        </td>
+                        <td>Estado Civil:*</td>
+                        <td>
+                            <select>
+                                <option value="Solteira">Solteira</option>
+                                <option value="Casada">Casada</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <input type="submit" value="Salvar">
+            <input type="reset" value="Limpar">
+        </form>
+    </div>    
+</body>
+</html>
